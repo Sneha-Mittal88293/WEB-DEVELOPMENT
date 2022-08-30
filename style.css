@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.container{
+    background-color: aquamarine;
+    padding: 10px;
+    color: white;
+}
+
+.second{
+    background-color: rgb(228, 219, 207);
+    padding: 18px;
+}
+
+ input[type="text"],
+ input[type="email"],select ,textarea{
+ width: 100%;
+}
+
+.button{
+    background-color: brown;
+    
+}
+.button:hover{
+    background-color: blue;
+    cursor: no-drop;
+}
