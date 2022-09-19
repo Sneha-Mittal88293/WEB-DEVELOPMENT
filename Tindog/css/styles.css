@@ -12,6 +12,15 @@ h1{
     line-height: 1.5;
     font-weight: bold;
 }
+
+h3{
+    padding-top: 10%;
+    font-weight: bold;
+}
+
+p{
+    color: gray;
+}
  
 /* Navigation bar */
 .navbar{
@@ -35,10 +44,36 @@ h1{
 /* Title image */
 .title-image{
     width: 50%;
-    transform: rotate(30deg);
-    padding-top: 15%;
+    transform: rotate(25deg);
+    padding-top: 10%;
 }
 
 .row{
     padding-left: 6rem;
 }
+
+#features{
+    padding: 7% 13%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+
+.icon{
+    
+    color: #f9abaa;
+}
+
+.icon:hover{
+    color:#ff4c68 ;
+}
+
+
+
+
+
+
+
+
