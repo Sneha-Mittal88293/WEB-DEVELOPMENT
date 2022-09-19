@@ -1,21 +1,44 @@
+
 #title{
     color: white;
     background-color: #ff4c68;
     font-size: large;
 }
 
-.col-lg-6{
-    transform: rotateX(30%);
-}
-
-.container-fluid{
-    padding: 3% 15%;
-}
-
 h1{
     padding: 10% 0%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
     font-weight: bold;
+}
+ 
+/* Navigation bar */
+.navbar{
+    padding:  0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.navbar-brand{
+    color: white;
+    padding-left: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.download-button{
+    margin-right:8%;
+}
+
+/* Title image */
+.title-image{
+    width: 50%;
+    transform: rotate(30deg);
+    padding-top: 15%;
+}
+
+.row{
+    padding-left: 6rem;
 }
