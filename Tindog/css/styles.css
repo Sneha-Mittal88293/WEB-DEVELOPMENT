@@ -13,6 +13,12 @@ h1{
     font-weight: bold;
 }
 
+h2{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 h3{
     padding-top: 10%;
     font-weight: bold;
@@ -52,6 +58,8 @@ p{
     padding-left: 6rem;
 }
 
+/* Features section */
+
 #features{
     padding: 7% 13%;
 }
@@ -70,9 +78,32 @@ p{
     color:#ff4c68 ;
 }
 
+/* Testimonials Section */
 
+#testimonials{
+    padding: 7% 13%;
+    text-align: center;
+    background-color: #f9abaa;
+    color: white;
+}
 
+.testimonials-image{
+    margin: 20px;
+    width: 20%;
+    border-radius: 100%;
+}
 
+/* Press Section */
+
+#press{
+    padding: 7% 13%;
+    background-color: #f9abaa;
+}
+
+.press-logo{
+    width: 20%;
+    margin: 20px 20px 50px;
+}
 
 
 
