@@ -134,17 +134,25 @@ p{
 #cta{
     background-color: #ff4c68;
     color: white;
-    padding: 7% 15%;
+    padding: 2% 15% 5%;
     text-align: center;
   }
 
 .cta-heading{
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1.5;
     font-weight: bold;
 }
 
 /* Footer Section */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
 
 
 
