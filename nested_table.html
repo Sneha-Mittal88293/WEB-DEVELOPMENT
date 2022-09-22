@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested table </title>
+</head>
+<body>
+    <table border="2">
+        <tr>
+            <th>Header column 1</th>
+            <th>Header column 2</th>
+            <th>Header column 3</th>
+            <th>Header column 4</th>
+        </tr>
+        <tr>
+            <td rowspan = 2 >Row 2 -item 1</td>
+            <td rowspan = 2 >Row 2 -item 2</td>
+            <th rowspan="8">
+                Row 2 : Nested Table 1<br>
+            <table border="2">
+                <tr>
+                    <th>row1 header</th>
+                    <td>item</td>
+                </tr>
+                <tr>
+                    <th>row2 header</th>
+                    <td>item</td>
+                </tr>
+                <tr>
+                    <th>row3 header</th>
+                    <td>item</td>
+                </tr>
+            </table></th>
+            <td rowspan="2">Row 2 -item 4 <br> A second line</td>
+        </tr>
+        <tr></tr>
+        <tr>  
+            <th rowspan="6">Row 3:nested table 2
+             <br><table border="2">
+            <tr>
+                <th>row 1 header</th>
+                <td>item</td>
+            </tr>
+            <tr>
+                <th>row 2 header</th>
+                <td>item</td>
+            </tr>
+            </table></th>
+        </tr>
+        <tr>
+            <td rowspan="6" >Row 3 - item 2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 3 - item 3</td>
+        </tr>
+        <tr>
+            <td>row4 - item1</td>
+        </tr>
+
+    </table>
+    
+    
+</body>
+</html>
