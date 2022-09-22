@@ -3,7 +3,13 @@
     color: white;
     background-color: #ff4c68;
     font-size: large;
+    height: 580px;
 }
+
+.container-fluid{
+    padding-left: 0% 5%;
+}
+
 
 h1{
     padding: 10% 0%;
@@ -30,7 +36,7 @@ p{
  
 /* Navigation bar */
 .navbar{
-    padding:  0 4.5rem;
+    padding:  2% 4.5rem;
 }
 .nav-item{
     padding: 0 18px;
@@ -51,7 +57,9 @@ p{
 .title-image{
     width: 50%;
     transform: rotate(25deg);
-    padding-top: 10%;
+    padding-top: 15%;
+    position: absolute;
+    right: 40%;
 }
 
 .row{
@@ -61,7 +69,10 @@ p{
 /* Features section */
 
 #features{
+    background-color: white;
     padding: 7% 13%;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box{
