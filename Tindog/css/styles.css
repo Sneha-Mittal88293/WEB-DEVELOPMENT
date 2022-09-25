@@ -1,9 +1,6 @@
 
-#title{
-    color: white;
-    background-color: #ff4c68;
-    font-size: large;
-    height: 580px;
+body{
+    text-align: center;
 }
 
 h1 , h2 , h3 , h4 , h5 , h6{
@@ -11,30 +8,24 @@ h1 , h2 , h3 , h4 , h5 , h6{
     
 }
 
-h3{
-    padding-top: 10%;
-   
-}
-
 p{
     color: gray;
 }
 
-.big_heading{
+.big-heading{
     padding: 10% 0%;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 3.5rem;
     line-height: 1.5;
+    font-weight: bold;
     
 }
 
 .container-fluid{
-    padding-left: 0% 5%;
+    padding-left: 7% 15%;
 }
 
 
-
- 
 /* Navigation bar */
 .navbar{
     padding:  2% 4.5rem;
@@ -51,7 +42,16 @@ p{
 }
 
 .download-button{
-    margin-right:5%;
+    margin:5% 3% 5% 0;
+}
+
+/* Title Section */
+#title{
+    color: white;
+    background-color: #ff4c68;
+    font-size: large;
+    height: 580px;
+    text-align: left;
 }
 
 /* Title image */
@@ -71,12 +71,11 @@ p{
 
 #features{
     background-color: white;
-    padding: 7% 13%;
     position: relative;
 }
 
 .feature-box{
-    text-align: center;
+    
     padding: 4.5%;
 }
 
@@ -89,10 +88,14 @@ p{
     color:#ff4c68 ;
 }
 
+.feature-title{
+    padding-top: 10%;
+}
+
 /* Testimonials Section */
 
 #testimonials{
-    text-align: center;
+   
     background-color: #f9abaa;
     color: white;
 }
@@ -108,11 +111,6 @@ p{
     line-height: 1.5;
 
 }
-
-.carousel-item{
-    padding: 7% 15%;
-}
-
 /* Press Section */
 
 #press{
@@ -129,7 +127,7 @@ p{
 
 #pricing{
     padding: 90px;
-    text-align: center;
+    
 }
 
 .pricing-col{
@@ -152,21 +150,9 @@ p{
 #cta{
     background-color: #ff4c68;
     color: white;
-    padding: 2% 15% 5%;
-    text-align: center;
   }
 
-.cta-heading{
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: bold;
-}
-
-/* Footer Section */
-#footer{
-    padding: 7% 15%;
-    text-align: center;
-}
+  /* Footer Section */
 
 .social-icon{
     margin: 20px 10px;
