@@ -6,33 +6,39 @@
     height: 580px;
 }
 
-.container-fluid{
-    padding-left: 0% 5%;
-}
-
-
-h1{
-    padding: 10% 0%;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
+h1 , h2 , h3 , h4 , h5 , h6{
     font-weight: bold;
+    
 }
 
 h2{
-    font-weight: bold;
     font-size: 3rem;
     line-height: 1.5;
 }
 
 h3{
     padding-top: 10%;
-    font-weight: bold;
+   
 }
 
 p{
     color: gray;
 }
+
+.big_heading{
+    padding: 10% 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+
+.container-fluid{
+    padding-left: 0% 5%;
+}
+
+
+
  
 /* Navigation bar */
 .navbar{
