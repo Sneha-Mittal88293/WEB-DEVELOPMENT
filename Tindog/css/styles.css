@@ -108,6 +108,12 @@ p{
     border-radius: 100%;
 }
 
+.testimonial-text{
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
 .carousel-item{
     padding: 7% 15%;
 }
@@ -133,6 +139,12 @@ p{
 
 .pricing-col{
     padding: 3% 2%;
+}
+
+.price-text{
+    font-size: 3.5rem;
+    line-height: 1.5;
+
 }
 
 /* CTA Section */
