@@ -27,7 +27,7 @@ p{
 }
 
 .container-fluid{
-    padding-left: 30% 12%;
+    padding: 6% 15%;
 }
 
 /* Section */
@@ -68,6 +68,10 @@ p{
     font-size: large;
     height: 580px;
     text-align: left;
+}
+
+#title .container-fluid{
+     padding: 3% 7%;
 }
 
 /* Title image */
