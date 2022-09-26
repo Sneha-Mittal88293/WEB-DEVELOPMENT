@@ -21,9 +21,27 @@ p{
     
 }
 
-.container-fluid{
-    padding-left: 7% 15%;
+.section-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
+
+.container-fluid{
+    padding-left: 30% 12%;
+}
+
+/* Section */
+.colored-section{
+    color: white;
+    background-color: #ff4c68;
+
+}
+
+.white-section{
+     background-color: #fff;
+}
+
+
 
 
 /* Navigation bar */
@@ -35,7 +53,6 @@ p{
 }
 
 .navbar-brand{
-    color: white;
     padding-left: 2%;
     font-size: 1.5rem;
     font-weight: bold;
@@ -47,8 +64,7 @@ p{
 
 /* Title Section */
 #title{
-    color: white;
-    background-color: #ff4c68;
+    
     font-size: large;
     height: 580px;
     text-align: left;
@@ -70,7 +86,6 @@ p{
 /* Features section */
 
 #features{
-    background-color: white;
     position: relative;
 }
 
@@ -95,9 +110,8 @@ p{
 /* Testimonials Section */
 
 #testimonials{
-   
+    padding-top: 5%;
     background-color: #f9abaa;
-    color: white;
 }
 
 .testimonials-image{
@@ -114,7 +128,6 @@ p{
 /* Press Section */
 
 #press{
-    padding: 7% 13%;
     background-color: #f9abaa;
 }
 
@@ -139,18 +152,6 @@ p{
     line-height: 1.5;
 
 }
-
-.section-heading{
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-/* CTA Section */
-
-#cta{
-    background-color: #ff4c68;
-    color: white;
-  }
 
   /* Footer Section */
 
