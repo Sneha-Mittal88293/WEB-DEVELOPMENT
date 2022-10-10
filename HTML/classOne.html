@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hoverable{
+            position: relative;
+            border: 5px solid brown;
+            display: inline-block;
+            width: 10%;
+        }
+
+        .material{
+            position: relative;
+            border: 3px solid green;
+            display: inline-block;
+            top: 25px;
+            opacity: 0;
+
+        }
+
+        .hoverable:hover .material{
+            opacity: 100%;
+            transition: opacity 3s;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="hoverable">
+        Home
+        <span class="material">This is all about home</span>
+    </div>
+</body>
+</html>
